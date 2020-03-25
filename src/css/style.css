@@ -13,7 +13,7 @@
 	align-items: center;
   justify-content: center;
   flex-direction: column;
-	height: 140vh;
+	height: 100%;
 	margin: 0;
 }
 
@@ -53,6 +53,7 @@
 
 /* Box */
 .box {
+  margin-top: 100px;
   background-color: #fff;
 	border-radius: 20px;
 	box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
