@@ -29,6 +29,7 @@
   width: 100%;
   overflow: hidden;
   background-color: #333;
+  z-index: 1;
 }
 
 @media screen and (max-width: 550px) {
@@ -71,7 +72,7 @@
   background-color: #fff;
   border-radius: 20px;
   box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
-  padding: 30px;
+  padding: 30px 250px;
   text-align: center;
   width: 80%;
 }
@@ -113,13 +114,17 @@
 
 .label {
   cursor: pointer;
-  font-size: 1.2rem;
   position: relative;
 }
 
 .label a {
   text-decoration: none;
+  font-size: 1.2rem;
   color: #333;
+}
+
+.done {
+  text-decoration: line-through;
 }
 
 .label:before {
