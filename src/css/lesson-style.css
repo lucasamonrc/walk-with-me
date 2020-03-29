@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=EB+Garamond|Lobster|Open+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css?family=EB+Garamond|Lobster|Open+Sans&display=swap");
 
 * {
   box-sizing: border-box;
@@ -8,13 +8,13 @@
 
 .container {
   background-color: #eaeaea;
-	font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
   display: flex;
-	align-items: center;
+  align-items: center;
   justify-content: center;
   flex-direction: column;
-	height: 100%;
-	margin: 0;
+  height: 100%;
+  margin: 0;
 }
 
 /* Navbar styling */
@@ -31,13 +31,27 @@
   background-color: #333;
 }
 
+@media screen and (max-width: 550px) {
+  .navbar {
+    flex-wrap: wrap;
+  }
+
+  .navbar li a {
+    font-size: 1rem;
+  }
+
+  * {
+    font-size: 0.8rem;
+  }
+}
+
 .navbar li a {
   display: block;
   color: #fff;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  transition: transform .5s linear;
+  transition: transform 0.5s linear;
   font-size: 1.3rem;
   font-weight: 600;
 }
@@ -47,7 +61,7 @@
 }
 
 #logo {
-  font-family: Lobster, 'Open Sans', sans-serif;
+  font-family: Lobster, "Open Sans", sans-serif;
   font-size: 1.5rem;
 }
 
@@ -55,16 +69,22 @@
 .box {
   margin-top: 100px;
   background-color: #fff;
-	border-radius: 20px;
-	box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
-	padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 200px rgba(0, 0, 0, 0.1);
+  padding: 30px 175px;
   text-align: center;
   width: 80%;
 }
 
+@media screen and (max-width: 700px) {
+  .box {
+    padding: 30px;
+  }
+}
+
 .box h1 {
   margin: 10px 0;
-  font-family: Lobster, 'Open Sans', sans-serif;
+  font-family: Lobster, "Open Sans", sans-serif;
   font-size: 3rem;
 }
 
@@ -82,7 +102,7 @@
 }
 
 .day-scripture p {
-  font-family: 'EB Garamond', 'Times New Roman', serif;
+  font-family: "EB Garamond", "Times New Roman", serif;
   font-style: italic;
 }
 
@@ -95,11 +115,11 @@
   cursor: pointer;
   color: #fff;
   font-weight: 650;
-  transition: background-color .5s linear, color .5s linear;
+  transition: background-color 0.5s linear, color 0.5s linear;
 }
 
 .record button:active {
-  transform: scale(.95);
+  transform: scale(0.95);
 }
 
 .record button:hover {
@@ -120,7 +140,6 @@
 
 .lesson h3 {
   font-size: 2.3rem;
-  
 }
 
 .lesson p {
@@ -159,7 +178,7 @@ footer {
 }
 
 footer p {
-  font-size: .9rem;
+  font-size: 0.9rem;
   opacity: 60%;
 }
 
