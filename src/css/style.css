@@ -8,7 +8,7 @@
 
 .container {
   background-color: #eaeaea;
-  font-family: "Muli", sans-serif;
+  font-family: "Open Sans", sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -88,6 +88,23 @@
   color: rgba(51, 51, 51, 0.774);
   font-size: 1.5rem;
 }
+
+h3.text-center {
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 550px) {
+  .box {padding: 0;}
+
+  h3.text-center {
+    font-size: 1rem;
+  }
+
+  .box p {
+    font-size: 1rem;
+    margin: 10px;
+  }
+} 
 
 /* Scripture of the Day */
 .day-scripture h3 {
