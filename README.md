@@ -16,7 +16,7 @@ The program spans through 6 weeks, with each week being a different lesson with 
 
 ## Technology used
 
-This website was developed using plan HTML, CSS, and JavaScript. Currently the website is being hosted on Netlify with continuous integration with GitHub.
+This website was developed using plain HTML, CSS, and JavaScript. Currently the website is being hosted on Netlify with continuous integration with GitHub.
 
 ## Feedback
 
