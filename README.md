@@ -2,7 +2,7 @@
 A 6-week Family Home Evening program focused in learning about Christ and how to walk with Him.
 
 ## Introduction
-Walk With Me is a Family Home Evening program based heavily on scripture study. It focuses on Christ, learning about Him, and how to walk with Him. This app was developed as part of the final project for the religion class "Jesus Christ, and The Everlasting Gospel" (REL 250). The website is hosted on Netlify.
+Walk With Me is a Family Home Evening program based heavily on scripture study. It focuses on Christ, learning about Him, and how to walk with Him. This app was developed as part of the final project for the religion class "Jesus Christ, and the Everlasting Gospel" (REL 250). The website is hosted on Netlify.
 
 Link: [Walk With Me](https://https://walkwithme.netlify.app)
 
