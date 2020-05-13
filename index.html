@@ -1,124 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="./src/css/style.css" />
-  <link rel="icon" href="./src/assets/icon.svg" type="image/svg">
-
-  <script src="https://kit.fontawesome.com/36ed240164.js" crossorigin="anonymous"></script>
-  <title>Walk With Me | Home</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="16x16" href="./icon.png">
+  <title>Walk With Me</title>
 </head>
-
 <body>
-  <ul class="navbar">
-    <li>
-      <a href="./index.html" class="nav-item" id="logo">Walk With Me</a>
-    </li>
-    <li><a href="./src/the-way.html" class="nav-item">Week 1</a></li>
-    <li><a href="./src/learn-of-me.html" class="nav-item">Week 2</a></li>
-    <li><a href="./src/look-unto-me.html" class="nav-item">Week 3</a></li>
-    <li><a href="./src/ask-of-god.html" class="nav-item">Week 4</a></li>
-    <li><a href="./src/hear-him.html" class="nav-item">Week 5</a></li>
-    <li><a href="./src/walk-with-me.html" class="nav-item">Week 6</a></li>
-  </ul>
-
-  <div class="container">
-    <div class="box">
-      <h1>Walk With Me</h1>
-      <p>
-        A 6-week Family Home Evening program focused in learning about Christ
-        and how to walk with Him.
-      </p>
-
-      <div class="day-scripture">
-        <h3>Scripture of the Day</h3>
-        <p>"Scripture" - Reference 1:1</p>
+  <header>
+    <h3 class="logo"><a href="./index.html">Walk With Me</a></h3>
+    <nav>
+      <ul class="nav-bar">
+        <li class="nav-item"><a href="./step-1.html" class="nav-link">1st Step</a></li>
+        <li class="nav-item"><a href="./step-2.html" class="nav-link">2nd Step</a></li>
+        <li class="nav-item"><a href="./step-3.html" class="nav-link">3rd Step</a></li>
+        <li class="nav-item"><a href="./step-4.html" class="nav-link">4th Step</a></li>
+        <li class="nav-item"><a href="./step-5.html" class="nav-link">5th Step</a></li>
+        <li class="nav-item"><a href="./step-6.html" class="nav-link">6th Step</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <section class="hero">
+      <div class="container">        
+        <h1 class="section-title hero-title">Walk With Me</h1>
+        <hr>
+        <p>A 6-week Family Home Evening program focused in learning about Christ and how to walk with Him.</p>
       </div>
+    </section>
 
-      <h3 class="text-center">Introduction</h3>
-      <br><br>
+    <section class="container">
+      <h2 class="section-title">Scripture of the Day</h2>
+      
+      <blockquote id="scripture">Scripture <span id="scripture-reference">- Reference</span></blockquote>
+    </section>
 
-      <p>Throughout Christ's pre-mortal, mortal, and pos-mortal ministry he issued several invitations. "Come follow
-        me", "Go, and sin no more", "Come unto me", "Love one another", "Take up thy cross, and follow me", etc. One of
-        the most profound and touching invitations was "walk with me."</p>
+    <section class="container">
+      <h2 class="section-title">Introduction</h2>
+      
+      <p>The goal of every disciple of Jesus Christ is to become like his/her master. In order to do so, we need to live by his principles and learn to walk by his side. The purpose of this program is help families and individuals to turn their thoughts to this simple invitation "walk with me", and make the necessary changes in life through family gospel teaching and sharing. This will be better accomplished through Family Home Evening, but the suggestions contained in these pages can go far beyond it.</p>
 
-      <p>The goal of every disciple of Jesus Christ is to become like his/her master. In order to do so, we need to live
-        by his principles and learn to walk by his side. The purpose of this program is help families and individuals to
-        turn their thoughts to this simple invitation "walk with me", and make the necessary changes in life through
-        family gospel teaching and sharing. This will be better accomplished through Family Home Evening, but the
-        suggestions contained in these pages can go far beyond it</p>
+      <p>Each week you will find a small summary of the week's principle, along with a set of scriptures and talks that expand the weekly principle. These scriptures will give the spiritual foundation for you to prepare with a family a Family Home Evening centered around the week's principle.</p>
 
-      <p>Each week you will find a small summary of the week's principle, along with a set of scriptures and talks that
-        expand the weekly principle. These scriptures will give the spiritual foundation for you to prepare with a
-        family a Family Home Evening centered around the week's principle.</p>
+      <p>The suggestions listed under the "Family Home Evening Ideas" are far from complete, and much less are they the only possible ideas to share the princples with your family. These suggestions are only a starting point; ultimately it is completely up to you and your family to decide, with the help of the Lord, how you are going to share these principles with your family in a way that will prepare you and your loved ones to walk with Christ throughout your lives.</p>
+    </section>
 
-      <p>The suggestions listed under the "Family Home Evening Ideas" are far from complete, and much less are they the
-        only possible ideas to share the princples with your family. These suggestions are only a starting point;
-        ultimately it is completely up to you and your family to decide, with the help of the Lord, how you are going to
-        share these principles with your family in a way that will prepare you and your loved ones to walk with Christ
-        throughout your lives.</p>
-      <br>
-      <h3 class="text-center">Your Progress</h3>
-      <br>
-      <div class="form-control">
-        <input type="checkbox" id="week-1" class="checkbox" />
+    <section class="container">
+      <h2 class="section-title">Your Progress</h2>
 
-        <label for="week-1" class="label" id="link1">
-          <a href="./src/the-way.html">Week 1: The Way</a>
-        </label>
+      <div class="checkboxes">
+        <div class="step">
+          <input type="checkbox" name="step1" id="step1"> 
+          <label for="step1" class="label">Step 1: "I am the way"</label>
+        </div>
+
+        <div class="step">
+          <input type="checkbox" name="step2" id="step2"> 
+          <label for="step2" class="label">Step 2: "Learn of me"</label>
+        </div>
+
+        <div class="step">
+          <input type="checkbox" name="step3" id="step3"> 
+          <label for="step3" class="label">Step 3: "Look unto me"</label>
+        </div>
+
+        <div class="step">
+          <input type="checkbox" name="step4" id="step4"> 
+          <label for="step4" class="label">Step 4: "Ask of God"</label>
+        </div>
+
+        <div class="step">
+          <input type="checkbox" name="step5" id="step5"> 
+          <label for="step5" class="label">Step 5: "Hear Him"</label>
+        </div>
+
+        <div class="step">
+          <input type="checkbox" name="step6" id="step6"> 
+          <label for="step6" class="label">Step 6: "Walk with me"</label>
+        </div>
       </div>
+    </section>
+  </main>
 
-      <div class="form-control">
-        <input type="checkbox" id="week-2" class="checkbox" />
-
-        <label for="week-2" class="label" id="link2">
-          <a href="./src/learn-of-me.html" target="_blank">Week 2: Learn of Me</a>
-        </label>
-      </div>
-
-      <div class="form-control">
-        <input type="checkbox" id="week-3" class="checkbox" />
-
-        <label for="week-3" class="label" id="link3">
-          <a href="./src/look-unto-me.html">Week 3: Look Unto Me</a>
-        </label>
-      </div>
-
-      <div class="form-control">
-        <input type="checkbox" id="week-4" class="checkbox" />
-
-        <label for="week-4" class="label" id="link4">
-          <a href="./src/ask-of-god.html">Week 4: Ask of God</a>
-        </label>
-      </div>
-
-      <div class="form-control">
-        <input type="checkbox" id="week-5" class="checkbox" />
-
-        <label for="week-5" class="label" id="link5">
-          <a href="./src/hear-him.html">Week 5: Hear Him</a>
-        </label>
-      </div>
-
-      <div class="form-control">
-        <input type="checkbox" id="week-6" class="checkbox" />
-
-        <label for="week-6" class="label" id="link6">
-          <a href="./src/walk-with-me.html">Week 6: Walk With Me</a>
-        </label>
-      </div>
+  <footer>
+    <div class="container">
+      <p><a href="mailto:lucasamonrc@gmail.com">Send feedback</a></p>
+      <p>Visit the repository at <a href="https://github.com/lucasamonrc/walk-with-me">GitHub.</a></p>
+      <p>Written and Developed by Lucas Castro.</p>
     </div>
-
-    <footer>
-      <p>Written and developed by Lucas A. Castro</p>
-      <p>MIT License 2020</p>
-      <p>Suggestions or feedback? Email me: <a href="mailto:lucasamonrc@gmail.com">lucasamonrc@gmail.com</a></p>
-    </footer>
-  </div>
-  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-  <script src="./src/app.js"></script>
+  </footer>
 </body>
-
 </html>

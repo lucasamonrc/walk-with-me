@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Open+Sans:wght@400;700&display=swap');
+
+*, *::before, *::after  {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --ff-primary: 'Open Sans', sans-serif;
+  --ff-logo: 'Lora', serif;
+
+  --fw-reg: 400;
+  --fw-bold: 700;
+
+  --clr-light: #fff;
+  --clr-dark: #333;
+  --clr-accent: #ea7225;
+
+  --fs-h1: 2.5rem;
+  --fs-h2: 2rem;
+  --fs-logo: 1.75rem;
+  --fs-body: 1.25rem;
+  --fs-small: .85rem;
+
+  --bs: 0.25em 0.25em 0.75em rgba(0,0,0,.25),
+        0.125em 0.125em 0.25em rgba(0,0,0,.15);
+}
+
+html {
+  font-size: 14px;
+  font-family: var(--ff-primary);
+}
+
+@media all and (min-width: 800px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+body {
+  background-color: var(--clr-light);
+  width: 100%;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  background-color: var(--clr-accent);
+  padding: 1rem;
+  z-index: 100;
+}
+
+header .logo {
+  width: 100%;
+  font-family: var(--ff-logo);
+  font-size: var(--fs-logo);
+  font-weight: var(--fw-reg);
+  text-align: center;
+  color: var(--clr-light);
+  margin-bottom: 1rem;
+}
+
+nav {
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
+  border-top: 2px solid var(--clr-light);
+  padding-top: 1rem;
+}
+
+.nav-bar {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-item {
+  text-align: center;
+  width: 15%;
+  transition: all .5s;
+}
+
+.nav-link {
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: var(--fw-bold);
+  color: var(--clr-light);
+  transition: color .5s;
+}
+
+.nav-link:hover {
+  color: black;
+}
+
+.hero {
+  width: 100%;
+  background: url(./cover.jpg);
+  background-size: cover;
+  background-color: var(--clr-dark);
+  background-blend-mode: multiply;
+  padding: 9rem 0 7rem;
+}
+
+.container {
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.section-title {
+  margin: 1rem 0;
+  font-size: var(--fs-h2);
+  font-weight: var(--fw-bold);
+  color: var(--clr-accent);
+}
+
+@media all and (min-width: 800px) {
+  .section-title {
+    margin: 3rem 0 1rem;
+  }
+}
+
+.hero-title {
+  font-family: var(--ff-logo);
+  font-weight: var(--fw-reg);
+  font-size: var(--fs-h1);
+  color: var(--clr-accent);
+  text-align: left;
+}
+
+.container p {
+  font-size: var(--fs-body);
+  color: var(--clr-dark);
+  margin-bottom: 1rem;
+}
+
+hr {
+  width: 60%;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  color: var(--clr-light);
+  width: 60%;
+}
+
+blockquote {
+  font-size: var(--fs-body);
+  font-style: italic;
+  font-weight: var(--fw-bold);
+  color: var(--clr-dark);
+  margin-bottom: 1rem;
+}
+
+.step {
+  margin-bottom: 1rem;
+}
+
+.step input {
+  margin-right: .5rem;
+  color: var(--clr-accent);
+}
+
+.label {
+  font-size: var(--fs-body);
+  color: var(--clr-dark);
+}
+
+.step-complete {
+  text-decoration: line-through;
+}
+
+footer {
+  margin-top: 6rem;
+  background-color: var(--clr-accent);
+  padding: 1rem;
+}
+
+footer div.container p {
+  margin-bottom: 0;
+  text-align: center;
+  font-size: var(--fs-small);
+  color: var(--clr-light);
+}
+
+footer div.container p a {
+  text-decoration: underline;
+  color: var(--clr-light);
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--clr-light);
+ }
+
+ /* Lesson pages */
+.btn {
+  display: block;
+  color: var(--clr-light);
+  padding: .5rem 1rem;
+  background-color: var(--clr-accent);
+  width: 10%;
+  text-align: center;
+  font-weight: var(--fw-bold);
+  box-shadow: var(--bs);
+  transition: all .2s;
+}
+
+.btn:hover {
+  filter: brightness(.8);
+}
+
+.study-plans {
+  list-style: none;
+}
+
+.container li {
+  margin-bottom: 1rem;
+  font-size: var(--fs-body);
+  color: var(--clr-dark);
+}
+
+.study-plans li a {
+  cursor: pointer;
+  color: var(--clr-accent);
+}
+
+.study-plans li a:hover {
+  text-decoration: underline;
+}
+
+.lesson-plans li {
+  margin-left: 2rem;
+}
+
+.lesson-plans li a {
+  color: var(--clr-accent);
+}
+
+.lesson-plans li a:hover {
+  text-decoration: underline;
+}
+
+table {
+  margin-top: 1rem;
+}
+
+tr {
+  font-size: var(--fs-small);
+}
+
+td + td, th + th {
+  padding-left: 1rem;
+}
