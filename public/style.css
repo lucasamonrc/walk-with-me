@@ -153,7 +153,7 @@ hr {
 blockquote {
   font-size: var(--fs-body);
   font-style: italic;
-  font-weight: var(--fw-bold);
+  font-weight: var(--fw-reg);
   color: var(--clr-dark);
   margin-bottom: 1rem;
 }
